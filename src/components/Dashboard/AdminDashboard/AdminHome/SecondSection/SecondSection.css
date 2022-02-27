@@ -1,0 +1,67 @@
+.card-control2{
+    border: none;
+    background-color: white;
+    box-shadow: 0px 0px 4px 1px #dee2e6;
+    padding: 10px;
+    border-radius: 12px;
+}
+.visitors-Headline{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+.visitorTopLeft{
+    width: 8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.visitorTopLeft h6{
+    background-color: #f1f5f1;
+    padding: 10px 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: .5s;
+}
+.visitorTopLeft h6:last-child{
+    background-color: #01B2C6;
+    padding: 10px 15px;
+}
+.visitorTopLeft h6:hover{
+    background-color: #01B2C6;
+    transition: .5s;
+}
+.visitorTopLeft p{
+    font-weight: 900;
+    color: #01B2C6;
+    cursor: pointer;
+}
+
+.todo1, .todo2, .todo3, .todo4 { 
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 20px;
+}
+.todo1 div, .todo2 div, .todo3 div, .todo4 div{ 
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.todo1 img, .todo2 img, .todo3 img, .todo4 img{ 
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.edit-check{
+    width: 25px;
+    height: 25px;
+    accent-color: #01B2C6;
+}
+
+.edit-check:checked + div p{
+    text-decoration: line-through;
+}
+
